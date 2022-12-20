@@ -235,4 +235,4 @@ Error generating stack: `+o.message+`
 
     outline: none;
     resize: none;
-`,sv=()=>Qe(ov,{children:[j(iv,{}),j(uv,{})]});function av(){return j("div",{className:"App",children:Qe(B0,{children:[j(nv,{}),j(U0,{children:j(Ed,{path:"/",element:j(lv,{children:j(sv,{})})})})]})})}si.createRoot(document.getElementById("root")).render(Qe(yt.StrictMode,{children:[j(Bm,{}),j(av,{})]}));
+`,sv=()=>Qe(ov,{children:[j(iv,{}),j(uv,{})]});function av(){return j("div",{className:"App",children:Qe(B0,{children:[j(nv,{}),j(U0,{children:j(Ed,{path:"/BlueNote",element:j(lv,{children:j(sv,{})})})})]})})}si.createRoot(document.getElementById("root")).render(Qe(yt.StrictMode,{children:[j(Bm,{}),j(av,{})]}));
