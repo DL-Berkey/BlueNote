@@ -8,17 +8,18 @@ export const EditorContainer = styled.div`
 
 export const ControlPanel = styled.div`
     width: 100%;
-    height: 5%;
+    height: 38px;
 
     margin-bottom: 1%;
 
-    border: 2px solid ${color.main};
     border-radius: 5px;
 `;
 
 export const ControlButton = styled.button`
     width: calc(100% / 3);
     height: 100%;
+
+    flex-grow: 1;
 
     font-size: ${fontSize.big};
     font-weight: bold;
@@ -32,7 +33,7 @@ export const ControlButton = styled.button`
 
 export const TitleInput = styled.input`
     width: 100%;
-    height: 5%;
+    height: 38px;
 
     font-size: ${fontSize.big};
 
