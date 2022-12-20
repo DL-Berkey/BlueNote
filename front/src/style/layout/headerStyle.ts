@@ -9,8 +9,18 @@ export const HeaderContainer = styled.header`
     width: 100%;
 `;
 
-export const Logo = styled.h1`
-    margin: 0 10px 15px 0;
+export const Blue = styled.h1`
+    display: inline-block;
+
+    margin: 0 0 15px 0;
 
     color: ${color.main};
+`;
+
+export const Note = styled.h1`
+    display: inline-block;
+
+    margin: 0 10px 15px 0;
+
+    color: ${color.sub};
 `;

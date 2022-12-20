@@ -12,8 +12,10 @@ export const TitleInput = styled.input`
 
     font-size: ${fontSize.big};
 
-    border: 1px solid ${color.main};
-    border-radius: 5px 5px 0 0;
+    /* border: 1px solid ${color.main};
+    border-radius: 5px 5px 0 0; */
+    border: none;
+    border-top: 2px solid ${color.main};
 
     outline: none;
 `;
@@ -21,8 +23,6 @@ export const TitleInput = styled.input`
 export const ControlPanel = styled.div`
     width: 100%;
     height: 26px;
-
-    border-radius: 5px;
 `;
 
 export const ControlButton = styled.button`
@@ -43,12 +43,13 @@ export const ControlButton = styled.button`
 
 export const ContentInput = styled.textarea<{ enterCount?: number }>`
     width: 100%;
-    height: 87%;
+    height: calc(95% - 64px);
 
     font-size: ${fontSize.big};
 
-    border: 1px solid ${color.main};
-    border-radius: 0 0 5px 5px;
+    /* border: 1px solid ${color.main}; */
+    /* border-radius: 0 0 5px 5px; */
+    border: none;
 
     overflow: visible;
 
