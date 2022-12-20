@@ -225,7 +225,7 @@ Error generating stack: `+o.message+`
     height: 93%;
 
     font-size: ${gs.big};
-    color: white;
+    /* color: white; */
 
     /* background-color: ${Jt.main};
     opacity: 0.8; */
