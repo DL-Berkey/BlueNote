@@ -191,7 +191,7 @@ Error generating stack: `+o.message+`
     color: ${Jt.main};
 `,tv=()=>Ye(b0,{children:[A(ev,{children:"BlueNote"}),A(q0,{})]}),nv=Ve.main`
     width: 100%;
-    height: calc(100vh - 85px);
+    height: calc(100vh - 89px);
 
     padding: 0 3% 0 3%;
 
@@ -211,7 +211,7 @@ Error generating stack: `+o.message+`
     outline: none;
 `,iv=Ve.div`
     width: 100%;
-    height: 30px;
+    height: 26px;
 
     border-radius: 5px;
 `,si=Ve.button`
