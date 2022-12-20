@@ -179,10 +179,11 @@ Error generating stack: `+o.message+`
     }
 `,b0=()=>Fe(q0,{children:[Fe(ii,{active:!0,children:[L(ui,{ellipsis:8>8,children:"\uD658\uC0DD\uD55C \uACE0\uB300\uC655\uAD6D"}),L(si,{children:L(oi,{})})]}),Fe(ii,{active:!1,children:[L(ui,{ellipsis:28>8,children:"\uD558\uD544 \uD68C\uADC0\uB85C \uB3CC\uC544\uC628 \uACF3\uC774 \uC5EC\uC655\uB2D8\uC758 \uC695\uC2E4\uC774\uC5C8\uB2E4."}),L(si,{children:L(oi,{})})]}),Fe(ii,{active:!1,children:[L(ui,{ellipsis:22>8,children:"100\uBD80\uD130 0\uC73C\uB85C \uB5A8\uC5B4\uC9C0\uB294 \uC774\uC138\uACC4 \uB77C\uC774\uD504"}),L(si,{children:L(oi,{})})]})]}),ev=Ie.header`
     display: grid;
-    grid-template-rows: 40px 30px;
+    grid-template-rows: 40px 10px 30px;
     grid-template-columns: 60px;
     grid-template-areas:
         "menu . logo"
+        "menu . ."
         "menu tablist tablist";
 
     width: 100%;
@@ -213,24 +214,16 @@ Error generating stack: `+o.message+`
 `,ov=({children:e})=>L(lv,{children:e}),iv=Ie.div`
     width: 100%;
     height: 100%;
-`,uv=Ie.div`
+`,uv=Ie.input`
     width: 100%;
     height: 38px;
 
-    padding-left: 45px;
+    font-size: ${No.big};
 
     border: 2px solid ${Jt.main};
     border-radius: 5px 5px 0 0;
 
-    input {
-        width: 100%;
-        height: 100%;
-
-        font-size: ${No.medium};
-
-        outline: none;
-        border: none;
-    }
+    outline: none;
 `,sv=Ie.div`
     width: 100%;
     height: 30px;
@@ -264,4 +257,4 @@ Error generating stack: `+o.message+`
 
     outline: none;
     resize: none;
-`,cv=()=>Fe(iv,{children:[L(uv,{children:L("input",{placeholder:"\uC81C\uBAA9"})}),Fe(sv,{children:[L(ai,{children:"\uBE14\uB7ED"}),L(ai,{children:"\uB9C1\uD06C"}),L(ai,{children:"\uC800\uC7A5"})]}),L(av,{placeholder:"\uB0B4\uC6A9"})]});function fv(){return L("div",{className:"App",children:Fe(H0,{children:[L(rv,{}),L(V0,{children:L(Pd,{path:"/BlueNote",element:L(ov,{children:L(cv,{})})})})]})})}fi.createRoot(document.getElementById("root")).render(Fe(yt.StrictMode,{children:[L(Hm,{}),L(fv,{})]}));
+`,cv=()=>Fe(iv,{children:[L(uv,{placeholder:"\uC81C\uBAA9"}),Fe(sv,{children:[L(ai,{children:"\uBE14\uB7ED"}),L(ai,{children:"\uB9C1\uD06C"}),L(ai,{children:"\uC800\uC7A5"})]}),L(av,{placeholder:"\uB0B4\uC6A9"})]});function fv(){return L("div",{className:"App",children:Fe(H0,{children:[L(rv,{}),L(V0,{children:L(Pd,{path:"/BlueNote",element:L(ov,{children:L(cv,{})})})})]})})}fi.createRoot(document.getElementById("root")).render(Fe(yt.StrictMode,{children:[L(Hm,{}),L(fv,{})]}));
