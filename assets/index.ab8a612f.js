@@ -149,7 +149,7 @@ Error generating stack: `+o.message+`
 
     padding-left: 10px;
 
-    border: 1px solid ${Jt.main};
+    border: 2px solid ${Jt.main};
     border-radius: 5px 5px 0 0;
 
     /* border-bottom: 2px solid ${({active:e})=>e?Jt.main:"none"}; */
