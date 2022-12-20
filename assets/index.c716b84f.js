@@ -154,12 +154,12 @@ Error generating stack: `+o.message+`
         margin-left: 10px;
     }
 `,ui=Ie.div`
-    width: 150px;
+    width: 120px;
     height: 100%;
 
     padding-left: 5px;
 
-    font-size: ${No.big};
+    font-size: ${No.medium};
     text-align: center;
     font-weight: bold;
 
@@ -179,7 +179,7 @@ Error generating stack: `+o.message+`
     }
 `,b0=()=>Fe(q0,{children:[Fe(ii,{active:!0,children:[L(ui,{ellipsis:8>8,children:"\uD658\uC0DD\uD55C \uACE0\uB300\uC655\uAD6D"}),L(si,{children:L(oi,{})})]}),Fe(ii,{active:!1,children:[L(ui,{ellipsis:28>8,children:"\uD558\uD544 \uD68C\uADC0\uB85C \uB3CC\uC544\uC628 \uACF3\uC774 \uC5EC\uC655\uB2D8\uC758 \uC695\uC2E4\uC774\uC5C8\uB2E4."}),L(si,{children:L(oi,{})})]}),Fe(ii,{active:!1,children:[L(ui,{ellipsis:22>8,children:"100\uBD80\uD130 0\uC73C\uB85C \uB5A8\uC5B4\uC9C0\uB294 \uC774\uC138\uACC4 \uB77C\uC774\uD504"}),L(si,{children:L(oi,{})})]})]}),ev=Ie.header`
     display: grid;
-    grid-template-rows: 40px 35px;
+    grid-template-rows: 40px 30px;
     grid-template-columns: 60px;
     grid-template-areas:
         "menu . logo"
@@ -215,14 +215,14 @@ Error generating stack: `+o.message+`
     height: 100%;
 `,uv=Ie.div`
     width: 100%;
-    height: 38px;
+    height: 30px;
 
     border-radius: 5px;
 `,ai=Ie.button`
     width: calc((100% - 2px) / 3);
     height: 100%;
 
-    font-size: ${No.big};
+    font-size: ${No.medium};
     font-weight: bold;
     text-align: center;
     color: white;
