@@ -2,15 +2,15 @@ import styled from "styled-components";
 import { color } from "../cssPalette";
 
 export const MenuContainer = styled.div`
-    grid-area: menu;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    width: 60px;
-    height: 90px;
+    position: fixed;
+
+    width: 50px;
+    height: 80px;
 
     border-radius: 0 0 25px 0;
 

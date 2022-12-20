@@ -1,18 +1,11 @@
-import { FaUserAlt } from "react-icons/fa";
-
-import Menu from "@/component/Menu";
 import TabList from "@/component/TabList";
 
-import { HeaderContainer, LogoContainer, Logo } from "@/style/layout/headerStyle";
+import { HeaderContainer, Logo } from "@/style/layout/headerStyle";
 
 const Header = () => {
     return (
         <HeaderContainer>
-            <Menu />
-            <LogoContainer>
-                <Logo>BlueNote</Logo>
-                <FaUserAlt />
-            </LogoContainer>
+            <Logo>BlueNote</Logo>
             <TabList />
         </HeaderContainer>
     );

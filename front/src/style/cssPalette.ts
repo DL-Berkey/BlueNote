@@ -5,5 +5,5 @@ export const fontSize = {
 
 export const color = {
     main: "#2B3A55",
-    sub: "",
+    sub: "#CE7777",
 };

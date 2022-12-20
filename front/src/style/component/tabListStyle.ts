@@ -9,6 +9,8 @@ export const TabContainer = styled.div`
     width: 100%;
     height: 100%;
 
+    padding-left: 40px;
+
     overflow-y: hidden;
     overflow-x: scroll;
     scrollbar-width: none;
@@ -25,7 +27,7 @@ export const Tab = styled.div<{ active?: boolean }>`
 
     height: 100%;
 
-    border-bottom: 2px solid ${({ active }) => (active ? "#CE7777" : "none")};
+    border-bottom: 2px solid ${({ active }) => (active ? color.sub : "none")};
 
     border-right: 2px solid ${color.main};
 
@@ -35,12 +37,12 @@ export const Tab = styled.div<{ active?: boolean }>`
 `;
 
 export const TabTitle = styled.div<{ ellipsis?: boolean }>`
-    width: 150px;
+    width: 120px;
     height: 100%;
 
     padding-left: 5px;
 
-    font-size: ${fontSize.big};
+    font-size: ${fontSize.medium};
     text-align: center;
     font-weight: bold;
 

@@ -2,33 +2,15 @@ import styled from "styled-components";
 import { color } from "../cssPalette";
 
 export const HeaderContainer = styled.header`
-    display: grid;
-    grid-template-rows: 40px 35px;
-    grid-template-columns: 60px;
-    grid-template-areas:
-        "menu . logo"
-        "menu tablist tablist";
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 
     width: 100%;
 `;
 
-export const LogoContainer = styled.div`
-    grid-area: logo;
-
-    display: flex;
-    justify-content: end;
-    align-items: center;
-
-    svg {
-        width: 25px;
-        height: 25px;
-
-        margin-right: 10px;
-    }
-`;
-
 export const Logo = styled.h1`
-    margin-right: 10px;
+    margin: 0 10px 15px 0;
 
     color: ${color.main};
 `;
