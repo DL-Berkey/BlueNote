@@ -16,6 +16,10 @@ export const MenuContainer = styled.div`
 
     background-color: ${color.main};
 
+    z-index: 1;
+
+    box-shadow: 0.5px 0.5px 1px 0 gray;
+
     svg {
         width: 100%;
         height: calc((90px -3px) / 2);
