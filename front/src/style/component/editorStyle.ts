@@ -10,25 +10,23 @@ export const ControlPanel = styled.div`
     width: 100%;
     height: 38px;
 
-    margin-bottom: 1%;
-
     border-radius: 5px;
 `;
 
 export const ControlButton = styled.button`
-    width: calc(100% / 3);
+    width: calc((100% - 2px) / 3);
     height: 100%;
-
-    flex-grow: 1;
 
     font-size: ${fontSize.big};
     font-weight: bold;
     text-align: center;
     color: white;
 
-    border-right: 1% solid white;
-
     background-color: ${color.main};
+
+    & ~ & {
+        border-left: 1px solid white;
+    }
 `;
 
 export const TitleInput = styled.input`

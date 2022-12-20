@@ -9,12 +9,12 @@ import {
 const Editor = () => {
     return (
         <EditorContainer>
+            <TitleInput />
             <ControlPanel>
                 <ControlButton>블럭</ControlButton>
                 <ControlButton>링크</ControlButton>
                 <ControlButton>저장</ControlButton>
             </ControlPanel>
-            <TitleInput />
             <ContentInput />
         </EditorContainer>
     );
