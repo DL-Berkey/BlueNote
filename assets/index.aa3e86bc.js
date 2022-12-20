@@ -96,6 +96,8 @@ Error generating stack: `+o.message+`
     justify-content: center;
     align-items: center;
 
+    position: fixed;
+
     width: 50px;
     height: 80px;
 
@@ -204,7 +206,7 @@ Error generating stack: `+o.message+`
     margin-right: 10px;
 
     color: ${Jt.main};
-`,nv=()=>Ye(b0,{children:[L(Z0,{}),L(ev,{children:L(tv,{children:"BlueNote"})}),L(q0,{})]}),rv=Ie.main`
+`,nv=()=>Ye(b0,{children:[L(ev,{children:L(tv,{children:"BlueNote"})}),L(q0,{})]}),rv=Ie.main`
     width: 100%;
     height: calc(100vh - 85px);
 
@@ -256,4 +258,4 @@ Error generating stack: `+o.message+`
 
     outline: none;
     resize: none;
-`,av=()=>Ye(ov,{children:[L(iv,{placeholder:"\uC81C\uBAA9"}),Ye(uv,{children:[L(si,{children:"\uBE14\uB7ED"}),L(si,{children:"\uB9C1\uD06C"}),L(si,{children:"\uC800\uC7A5"})]}),L(sv,{placeholder:"\uB0B4\uC6A9"})]});function cv(){return L("div",{className:"App",children:Ye(H0,{children:[L(nv,{}),L(V0,{children:L(Pd,{path:"/BlueNote",element:L(lv,{children:L(av,{})})})})]})})}ci.createRoot(document.getElementById("root")).render(Ye(yt.StrictMode,{children:[L(Hm,{}),L(cv,{})]}));
+`,av=()=>Ye(ov,{children:[L(iv,{placeholder:"\uC81C\uBAA9"}),Ye(uv,{children:[L(si,{children:"\uBE14\uB7ED"}),L(si,{children:"\uB9C1\uD06C"}),L(si,{children:"\uC800\uC7A5"})]}),L(sv,{placeholder:"\uB0B4\uC6A9"})]});function cv(){return L("div",{className:"App",children:Ye(H0,{children:[L(Z0,{}),L(nv,{}),L(V0,{children:L(Pd,{path:"/BlueNote",element:L(lv,{children:L(av,{})})})})]})})}ci.createRoot(document.getElementById("root")).render(Ye(yt.StrictMode,{children:[L(Hm,{}),L(cv,{})]}));
