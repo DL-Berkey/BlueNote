@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import { color } from "../cssPalette";
 
 export const HomeContainer = styled.main`
-    float: right;
+    width: 100%;
+    height: calc(100vh - 75px);
 
-    width: 80%;
-    height: 93vh;
+    padding: 0 3% 0 3%;
+
+    /* background-color: ${color.main}; */
 `;

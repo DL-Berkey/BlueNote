@@ -1,5 +1,6 @@
 export const fontSize = {
-    big: "16px",
+    medium: "16px",
+    big: "18px",
 };
 
 export const color = {
