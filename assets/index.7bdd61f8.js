@@ -96,8 +96,8 @@ Error generating stack: `+o.message+`
     justify-content: center;
     align-items: center;
 
-    width: 60px;
-    height: 90px;
+    width: 50px;
+    height: 80px;
 
     border-radius: 0 0 25px 0;
 
@@ -179,7 +179,7 @@ Error generating stack: `+o.message+`
     }
 `,q0=()=>Ye(J0,{children:[Ye(oi,{active:!0,children:[L(ii,{ellipsis:8>8,children:"\uD658\uC0DD\uD55C \uACE0\uB300\uC655\uAD6D"}),L(ui,{children:L(li,{})})]}),Ye(oi,{active:!1,children:[L(ii,{ellipsis:28>8,children:"\uD558\uD544 \uD68C\uADC0\uB85C \uB3CC\uC544\uC628 \uACF3\uC774 \uC5EC\uC655\uB2D8\uC758 \uC695\uC2E4\uC774\uC5C8\uB2E4."}),L(ui,{children:L(li,{})})]}),Ye(oi,{active:!1,children:[L(ii,{ellipsis:22>8,children:"100\uBD80\uD130 0\uC73C\uB85C \uB5A8\uC5B4\uC9C0\uB294 \uC774\uC138\uACC4 \uB77C\uC774\uD504"}),L(ui,{children:L(li,{})})]})]}),b0=Ie.header`
     display: grid;
-    grid-template-rows: 40px 25px 30px;
+    grid-template-rows: 40px 15px 30px;
     grid-template-columns: 60px;
     grid-template-areas:
         "menu . logo"
@@ -206,7 +206,7 @@ Error generating stack: `+o.message+`
     color: ${Jt.main};
 `,nv=()=>Ye(b0,{children:[L(Z0,{}),L(ev,{children:L(tv,{children:"BlueNote"})}),L(q0,{})]}),rv=Ie.main`
     width: 100%;
-    height: calc(100vh - 95px);
+    height: calc(100vh - 85px);
 
     padding: 0 3% 0 3%;
 
