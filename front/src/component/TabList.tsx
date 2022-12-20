@@ -6,18 +6,36 @@ const TabList = () => {
     return (
         <TabContainer>
             <Tab active={true}>
-                <TabTitle>환생한 고대왕국</TabTitle>
+                <TabTitle ellipsis={"환생한 고대왕국".length > 8 ? true : false}>
+                    환생한 고대왕국
+                </TabTitle>
                 <TabCloseButton>
                     <IoMdClose />
                 </TabCloseButton>
             </Tab>
             <Tab active={false}>
-                <TabTitle>눈을 떠보니 내가 백만장자?</TabTitle>
-                <TabCloseButton>X</TabCloseButton>
+                <TabTitle
+                    ellipsis={
+                        "하필 회귀로 돌아온 곳이 여왕님의 욕실이었다.대왕국".length > 8
+                            ? true
+                            : false
+                    }
+                >
+                    하필 회귀로 돌아온 곳이 여왕님의 욕실이었다.
+                </TabTitle>
+                <TabCloseButton>
+                    <IoMdClose />
+                </TabCloseButton>
             </Tab>
             <Tab active={false}>
-                <TabTitle>음 제목 뭘로하지?</TabTitle>
-                <TabCloseButton>X</TabCloseButton>
+                <TabTitle
+                    ellipsis={"100부터 0으로 떨어지는 이세계 라이프".length > 8 ? true : false}
+                >
+                    100부터 0으로 떨어지는 이세계 라이프
+                </TabTitle>
+                <TabCloseButton>
+                    <IoMdClose />
+                </TabCloseButton>
             </Tab>
         </TabContainer>
     );

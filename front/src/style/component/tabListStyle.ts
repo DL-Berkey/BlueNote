@@ -9,6 +9,7 @@ export const TabContainer = styled.div`
     width: 100%;
     height: 100%;
 
+    overflow-y: hidden;
     overflow-x: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -22,33 +23,41 @@ export const Tab = styled.div<{ active?: boolean }>`
     display: flex;
     align-items: center;
 
-    max-width: 280px;
     height: 100%;
 
-    margin-right: 10px;
+    border-bottom: 2px solid ${({ active }) => (active ? "#CE7777" : "none")};
 
-    border-bottom: 2px solid ${({ active }) => (active ? color.main : "none")};
+    border-right: 2px solid ${color.main};
+
+    & ~ & {
+        margin-left: 10px;
+    }
 `;
 
-export const TabTitle = styled.div`
+export const TabTitle = styled.div<{ ellipsis?: boolean }>`
+    width: 150px;
+    height: 100%;
+
+    padding-left: 5px;
+
     font-size: ${fontSize.big};
     text-align: center;
+    font-weight: bold;
 
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
-
-    border-right: 1.2px solid gray;
+    text-overflow: ${({ ellipsis }) => (ellipsis ? "ellipsis" : "")};
 `;
 
 export const TabCloseButton = styled.button`
-    width: 18%;
+    width: 31px;
     height: 100%;
 
     text-align: center;
+    vertical-align: middle;
 
     svg {
-        width: 100%;
-        height: 100%;
+        width: 21px;
+        height: 21px;
     }
 `;
