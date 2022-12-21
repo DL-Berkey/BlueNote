@@ -1,14 +1,14 @@
 import TabList from "@/component/TabList";
 
-import { HeaderContainer, Blue, Note } from "@/style/layout/headerStyle";
+import { HeaderContainer, Logo } from "@/style/layout/headerStyle";
 
 const Header = () => {
     return (
         <HeaderContainer>
-            <div>
-                <Blue>Blue</Blue>
-                <Note>Note</Note>
-            </div>
+            <Logo>
+                <span>Blue</span>
+                <span>Note</span>
+            </Logo>
             <TabList />
         </HeaderContainer>
     );
