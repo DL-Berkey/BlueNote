@@ -257,7 +257,7 @@ Error generating stack: `+i.message+`
     height: 100%;
 
     text-align: center;
-    vertical-align: middle;
+    line-height: 21px;
 
     svg {
         width: 21px;
