@@ -133,7 +133,6 @@ Error generating stack: `+i.message+`
         width: 250px;
         height: 93vh;
 
-        /* padding: 44.85px 3% 0 3%; */
         padding: 0 3% 0 3%;
     }
 `,P2=Pe.nav`
@@ -186,7 +185,6 @@ Error generating stack: `+i.message+`
 
     border: 0;
 `,T2=Pe.input`
-    /* width: 190px; */
     width: 0;
     height: 38.5px;
 
@@ -200,12 +198,12 @@ Error generating stack: `+i.message+`
     display: none;
 
     width: 100%;
-    height: 85%;
-    /* height: 85px; */
+    height: 80vh;
 
     margin-top: 30px;
 
-    background-color: black;
+    border: 2px solid white;
+    border-radius: 0 0 25px 0;
 
     &.activate {
         display: block;
