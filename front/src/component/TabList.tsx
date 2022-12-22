@@ -1,4 +1,4 @@
-import { IoMdClose } from "react-icons/io";
+import CloseIcon from "@mui/icons-material/Close";
 
 import { TabContainer, Tab, TabTitle, TabCloseButton } from "@/style/component/tabListStyle";
 
@@ -10,7 +10,7 @@ const TabList = () => {
                     환생한 고대왕국
                 </TabTitle>
                 <TabCloseButton>
-                    <IoMdClose />
+                    <CloseIcon />
                 </TabCloseButton>
             </Tab>
             <Tab active={false}>
@@ -24,7 +24,7 @@ const TabList = () => {
                     하필 회귀로 돌아온 곳이 여왕님의 욕실이었다.
                 </TabTitle>
                 <TabCloseButton>
-                    <IoMdClose />
+                    <CloseIcon />
                 </TabCloseButton>
             </Tab>
             <Tab active={false}>
@@ -34,7 +34,7 @@ const TabList = () => {
                     100부터 0으로 떨어지는 이세계 라이프
                 </TabTitle>
                 <TabCloseButton>
-                    <IoMdClose />
+                    <CloseIcon />
                 </TabCloseButton>
             </Tab>
         </TabContainer>

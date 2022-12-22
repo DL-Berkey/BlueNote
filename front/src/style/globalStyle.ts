@@ -13,6 +13,19 @@ const GlobalStyle = createGlobalStyle`
 
     button {
         all: unset;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    input {
+        outline: none;
+        border: none;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 `;
 

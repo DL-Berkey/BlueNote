@@ -12,12 +12,7 @@ export const TitleInput = styled.input`
 
     font-size: ${fontSize.big};
 
-    /* border: 1px solid ${color.main};
-    border-radius: 5px 5px 0 0; */
-    border: none;
     border-top: 2px solid ${color.main};
-
-    outline: none;
 `;
 
 export const ControlPanel = styled.div`
