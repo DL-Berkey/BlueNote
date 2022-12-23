@@ -133,7 +133,7 @@ Error generating stack: `+i.message+`
         width: 250px;
         height: 93vh;
 
-        padding: 0 3% 0 3%;
+        padding: 0 12px 0 12px;
     }
 `,P2=Pe.nav`
     display: flex;
@@ -186,13 +186,13 @@ Error generating stack: `+i.message+`
     border: 0;
 `,T2=Pe.input`
     width: 0;
-    height: 38.5px;
+    height: 4.5%;
 
-    margin-top: 3px;
+    margin-top: 1%;
 
     transition: all, 0.3s;
     &.activate {
-        width: 190px;
+        width: 80%;
     }
 `,O2=Pe.section`
     display: none;
@@ -200,7 +200,7 @@ Error generating stack: `+i.message+`
     width: 100%;
     height: 80vh;
 
-    margin-top: 30px;
+    margin-top: 8%;
 
     border: 2px solid white;
     border-radius: 0 0 25px 0;
